@@ -1,0 +1,17 @@
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+
+# Ignore built libraries
+*.a
+*.so
+*.dll
+
+# Ignore local folders
+build/
+lib/
+gtest/
