@@ -7,6 +7,7 @@ namespace igg {
 class Image {
  public:
   ///////////////////// Create the public interface here ///////////////////////
+  /// My name is vishal 
  private:
   int rows_ = 0;
   int cols_ = 0;
