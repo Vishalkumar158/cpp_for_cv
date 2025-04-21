@@ -14,6 +14,10 @@ class Image {
   int& at(const int& row, const int& col);
   bool FillFromPgm(const std::string& file_name);
   void WriteToPgm(const std::string& file_name);
+  std::vector<float> ComputeHistogram(int bins);
+  void DownScale(int scale);
+  void UpScale(int scale);
+
  private:
   int rows_ = 0;
   int cols_ = 0;

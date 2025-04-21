@@ -1,0 +1,1 @@
+g++ -o my_test /home/vishal/cpp_for_cv/igg_image/src/igg_image/image.cpp -L./lib -lgtest -lgtest_main -pthread
